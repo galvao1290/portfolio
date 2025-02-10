@@ -14,3 +14,11 @@ def home(request: Request):
 @app.get("/projetos", response_class=HTMLResponse)
 def projetos(request: Request):
     return templates.TemplateResponse("projetos.html", {"request": request})
+
+@app.get('/contatos', response_class=HTMLResponse)
+def sobre(request:Request):
+    return templates.TemplateResponse('contato.html', {"request":request})
+
+@app.get('/certificados', response_class=HTMLResponse)
+def certificados(request:Request):
+    return templates.TemplateResponse('certificados.html', {'request':request})
