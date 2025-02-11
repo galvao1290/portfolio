@@ -11,7 +11,7 @@ Este é o meu **portfólio profissional**, onde compartilho informações sobre 
 - **Jinja2** 🏗️
 
 - ## 📌 Funcionalidades
--✅ Apresentação profissional e moderna
--✅ Seção de projetos com detalhes
--✅ Página de contato integrada com redes sociais
--✅ Página de certificados para exibir conquistas
+- ✅ Apresentação profissional e moderna
+- ✅ Seção de projetos com detalhes
+- ✅ Página de contato integrada com redes sociais
+- ✅ Página de certificados para exibir conquistas
