@@ -10,7 +10,7 @@ Este é o meu **portfólio profissional**, onde compartilho informações sobre 
 - **Tailwind CSS** 💨 
 - **Jinja2** 🏗️
 
-- ## 📌 Funcionalidades
+## 📌 Funcionalidades
 - ✅ Apresentação profissional e moderna
 - ✅ Seção de projetos com detalhes
 - ✅ Página de contato integrada com redes sociais
