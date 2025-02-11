@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block title %}Meu Portfólio{% endblock %}
+
+{% block content %}
+<div class="container mx-auto py-12 text-center">
+    <h1 class="text-4xl font-bold text-gray-800 mb-6">Meu Portfolio</h1>
+    <p class="text-gray-600 text-lg mb-4"></p>
+    
+    <div class="max-w-3xl mx-auto bg-white shadow-md rounded-lg p-6 text-left">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">📌 Sobre o Projeto</h2>
+        <p class="text-gray-600 mb-6">Eu queria um portfólio profissional onde pudesse mostrar meus projetos, mas não queria utilizar qualquer ferramenta de criação de site em seu desenvolvimento. Então fiz do zero utilizando as tecnologias abaixo!</p>
+        
+        <h2 class="text-2xl font-semibold text-gray-800 mb-4">🚀 Tecnologias Utilizadas</h2>
+        <ul class="list-disc pl-6 text-gray-600">
+            <li>Python</li>
+            <li>Fastapi</li>
+            <li>HTML, CSS</li>
+            <li>Tailwind css</li>
+            <li>Jinja2</li>
+            
+        </ul>
+        
+        <h2 class="text-2xl font-semibold text-gray-800 mt-6 mb-4">🔗 Links</h2>
+        <a href="https://github.com/galvao1290/Web-Scraping-Tombamento-SP" class="text-blue-600 hover:underline">Repositório no GitHub</a>
+    </div>
+</div>
+{% endblock %}

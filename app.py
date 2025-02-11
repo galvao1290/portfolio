@@ -22,3 +22,11 @@ def sobre(request:Request):
 @app.get('/certificados', response_class=HTMLResponse)
 def certificados(request:Request):
     return templates.TemplateResponse('certificados.html', {'request':request})
+
+#página projetos
+@app.get('/web-scraping-sp', response_class=HTMLResponse)
+def pag_webscrapingsp(request:Request):
+    return templates.TemplateResponse('pag_webscrapingsp.html', {'request':request})
+@app.get('/meu-portfolio', response_class=HTMLResponse)
+def pag_webscrapingsp(request:Request):
+    return templates.TemplateResponse('pag_meuportfolio.html', {'request':request})
