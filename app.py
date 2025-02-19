@@ -30,3 +30,6 @@ def pag_webscrapingsp(request:Request):
 @app.get('/meu-portfolio', response_class=HTMLResponse)
 def pag_webscrapingsp(request:Request):
     return templates.TemplateResponse('pag_meuportfolio.html', {'request':request})
+@app.get('/news-bot', response_class=HTMLResponse)
+def pag_webscrapingsp(request:Request):
+    return templates.TemplateResponse('pag_newsbot.html', {'request':request})
